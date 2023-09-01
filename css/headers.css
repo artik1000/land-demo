@@ -1,0 +1,280 @@
+/*Десктопы и большие планшеты*/
+@media screen and (min-width: 767px) and (min-height: 767px) {
+    /* nth-child(1), nth-child(1) для каждой сторки заголовка (макс 3) */
+
+    /*заголовки с призом */
+    .prize-header:nth-child(1){
+        font-size: 27px;
+    }
+    .prize-header:nth-child(2){
+        font-size: 30px;
+    }
+    .prize-header:nth-child(3){
+    }
+    /*заголовки с "пусто" */
+    .empty-header:nth-child(1){
+        font-size: 35px;
+    }
+    .empty-header:nth-child(2){
+    }
+    .empty-header:nth-child(3){
+    }
+    /*заголовки с "попробуй еще" */
+    .spin-again-header:nth-child(1){
+        font-size: 30px;
+    }
+    .spin-again-header:nth-child(2){
+
+    }
+    .spin-again-header:nth-child(3){
+
+    }
+    /* текст на кнопке */
+    .roulette-button {
+        font-size: 30px;
+    }
+    /* текст поверх колеса */
+    .transparent-coating-header{
+        font-size: 38px;
+    }
+}
+/*Планшеты*/
+@media screen and (min-width: 767px) and (max-height: 766px) {
+    /* nth-child(1), nth-child(1) для каждой сторки заголовка (макс 3) */
+
+    /*заголовки с призом */
+    .prize-header:nth-child(1){
+        font-size: 16px;
+    }
+    .prize-header:nth-child(2){
+        font-size: 16px;
+    }
+    .prize-header:nth-child(3){
+    }
+    /*заголовки с "пусто" */
+    .empty-header:nth-child(1){
+        font-size: 25px;
+    }
+    .empty-header:nth-child(2){
+    }
+    .empty-header:nth-child(3){
+    }
+    /*заголовки с "попробуй еще" */
+    .spin-again-header:nth-child(1){
+        font-size: 18px;
+    }
+    .spin-again-header:nth-child(2){
+
+    }
+    .spin-again-header:nth-child(3){
+
+    }
+    /* текст на кнопке */
+    .roulette-button {
+        font-size: 25px;
+    }
+    /* текст поверх колеса */
+    .transparent-coating-header{
+        font-size: 26px;
+    }
+}
+/*Телефоны в вертикальном положении и небольшие планшеты*/
+@media screen and (max-width: 766px) and (min-height: 370px) {
+    /* nth-child(1), nth-child(1) для каждой сторки заголовка (макс 3) */
+
+    /*заголовки с призом */
+    .prize-header:nth-child(1){
+        font-size: 16px;
+    }
+    .prize-header:nth-child(2){
+        font-size: 20px;
+    }
+    .prize-header:nth-child(3){
+    }
+    /*заголовки с "пусто" */
+    .empty-header:nth-child(1){
+        font-size: 25px;
+    }
+    .empty-header:nth-child(2){
+    }
+    .empty-header:nth-child(3){
+    }
+    /*заголовки с "попробуй еще" */
+    .spin-again-header:nth-child(1){
+        font-size: 18px;
+    }
+    .spin-again-header:nth-child(2){
+
+    }
+    .spin-again-header:nth-child(3){
+
+    }
+    /* текст на кнопке */
+    .roulette-button {
+        font-size: 22px;
+    }
+    /* текст поверх колеса */
+    .transparent-coating-header{
+        font-size: 26px;
+    }
+}
+/*Телефоны в горизонтальном положении 2*/
+@media screen and (max-width: 766px) and (max-height: 369px) {
+    /* nth-child(1), nth-child(1) для каждой сторки заголовка (макс 3) */
+
+    /*заголовки с призом */
+    .prize-header:nth-child(1){
+        font-size: 13px;
+    }
+    .prize-header:nth-child(2){
+        font-size: 13px;
+    }
+    .prize-header:nth-child(3){
+    }
+    /*заголовки с "пусто" */
+    .empty-header:nth-child(1){
+        font-size: 22px;
+    }
+    .empty-header:nth-child(2){
+    }
+    .empty-header:nth-child(3){
+    }
+    /*заголовки с "попробуй еще" */
+    .spin-again-header:nth-child(1){
+        font-size: 17px;
+    }
+    .spin-again-header:nth-child(2){
+
+    }
+    .spin-again-header:nth-child(3){
+
+    }
+    /* текст на кнопке */
+    .roulette-button {
+        font-size: 19px;
+    }
+    /* текст поверх колеса */
+    .transparent-coating-header{
+        font-size: 22px;
+    }
+}
+/*Малые телефоны*/
+@media screen and (max-width: 320px) {
+    /* nth-child(1), nth-child(1) для каждой сторки заголовка (макс 3) */
+
+    /*заголовки с призом */
+    .prize-header:nth-child(1){
+        font-size: 13px;
+    }
+    .prize-header:nth-child(2){
+        font-size: 10px;
+    }
+    .prize-header:nth-child(3){
+    }
+    /*заголовки с "пусто" */
+    .empty-header:nth-child(1){
+        font-size: 22px;
+    }
+    .empty-header:nth-child(2){
+    }
+    .empty-header:nth-child(3){
+    }
+    /*заголовки с "попробуй еще" */
+    .spin-again-header:nth-child(1){
+        font-size: 19px;
+    }
+    .spin-again-header:nth-child(2){
+
+    }
+    .spin-again-header:nth-child(3){
+
+    }
+    /* текст на кнопке */
+    .roulette-button {
+        font-size: 17px;
+    }
+    /* текст поверх колеса */
+    .transparent-coating-header{
+        font-size: 22px;
+    }
+}
+/*Совсем малые телефоны*/
+@media screen and (max-width: 300px) {
+    /* nth-child(1), nth-child(1) для каждой сторки заголовка (макс 3) */
+
+    /*заголовки с призом */
+    .prize-header:nth-child(1){
+        font-size: 11px;
+    }
+    .prize-header:nth-child(2){
+        font-size: 9px;
+    }
+    .prize-header:nth-child(3){
+    }
+    /*заголовки с "пусто" */
+    .empty-header:nth-child(1){
+        font-size: 18px;
+    }
+    .empty-header:nth-child(2){
+    }
+    .empty-header:nth-child(3){
+    }
+    /*заголовки с "попробуй еще" */
+    .spin-again-header:nth-child(1){
+        font-size: 14px;
+    }
+    .spin-again-header:nth-child(2){
+
+    }
+    .spin-again-header:nth-child(3){
+
+    }
+    /* текст на кнопке */
+    .roulette-button {
+        font-size: 17px;
+    }
+    /* текст поверх колеса */
+    .transparent-coating-header{
+        font-size: 18px;
+    }
+}
+/*Galaxy Fold в горизонтальном положении, нераскрытом*/
+@media screen and (width: 653px) and (height: 280px) {
+    /* nth-child(1), nth-child(1) для каждой сторки заголовка (макс 3) */
+
+    /*заголовки с призом */
+    .prize-header:nth-child(1){
+        font-size: 13px;
+    }
+    .prize-header:nth-child(2){
+        font-size: 10px;
+    }
+    .prize-header:nth-child(3){
+    }
+    /*заголовки с "пусто" */
+    .empty-header:nth-child(1){
+        font-size: 18px;
+    }
+    .empty-header:nth-child(2){
+    }
+    .empty-header:nth-child(3){
+    }
+    /*заголовки с "попробуй еще" */
+    .spin-again-header:nth-child(1){
+        font-size: 15px;
+    }
+    .spin-again-header:nth-child(2){
+
+    }
+    .spin-again-header:nth-child(3){
+
+    }
+    /* текст на кнопке */
+    .roulette-button {
+        font-size: 16px;
+    }
+    /* текст поверх колеса */
+    .transparent-coating-header{
+        font-size: 22px !important;
+    }
+}

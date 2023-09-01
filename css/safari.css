@@ -1,0 +1,11 @@
+@media screen and (min-height: 321px) and (orientation: landscape) and (max-height: 480px){
+    body {
+        overflow-y: scroll;
+    }
+    #app {
+        overflow-y: scroll;
+    }
+    .roulette {
+        overflow-y: scroll;
+    }
+}
